@@ -1,30 +1,30 @@
 import 'package:flutter/material.dart';
-import 'package:namer_app/star.dart';
-import 'package:namer_app/text.dart';
+import 'package:namer_app/page_inicial.dart';
+import 'package:namer_app/thema_light.dart';
 
+void main() => runApp(MyApp());
 
-Future<void> main() async {
-  runApp(const MyApp());
+class MyApp extends StatefulWidget {
+  final colorPri = Colors.green[300];
+
+  @override
+  // ignore: library_private_types_in_public_api
+  _State createState() => _State();
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
+class _State extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        // useMaterial3: true,
-        primaryColor: Colors.lime
-      ),
-      home: Column(
-        children: [
-          // Textt(),
-          Star(),
-        ],
-      )        
-                
+      debugShowCheckedModeBanner: false,
+      theme: myTheme,
+      // ThemeData(
+      //   colorSchemeSeed: Colors.lightGreen[400],
+      //   // brightness: Brightness.light,
+      //   // useMaterial3: true,
+      //
+      // ),
+      home: const Pageinicial(),
     );
   }
 }
-

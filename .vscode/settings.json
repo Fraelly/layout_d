@@ -1,0 +1,7 @@
+{
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "dart.flutterOutline": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "dart.analysisServerFolding": true,
+    "indentRainbow.indicatorStyle": "light"
+}
