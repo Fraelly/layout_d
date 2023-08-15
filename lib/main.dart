@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:namer_app/page_inicial.dart';
+import 'package:namer_app/page_login.dart';
 import 'package:namer_app/thema_light.dart';
 
 void main() => runApp(MyApp());
@@ -18,12 +18,6 @@ class _State extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: myTheme,
-      // ThemeData(
-      //   colorSchemeSeed: Colors.lightGreen[400],
-      //   // brightness: Brightness.light,
-      //   // useMaterial3: true,
-      //
-      // ),
       home: const Pageinicial(),
     );
   }

@@ -26,9 +26,6 @@ class Pageinicial extends StatelessWidget {
                         height: 100,
                       ),
                     ),
-                    // Padding(
-                    //   padding: const EdgeInsets.all(10),
-                    //   child:
                     TextField(
                       decoration: InputDecoration(
                           border: OutlineInputBorder(),
@@ -44,7 +41,7 @@ class Pageinicial extends StatelessWidget {
                             border: OutlineInputBorder(),
                             labelText: 'Password',
                             suffixIcon: Icon(
-                              Icons.lock_rounded,
+                              Icons.remove_red_eye,
                               color: Theme.of(context).iconTheme.color,
                             )),
                       ),

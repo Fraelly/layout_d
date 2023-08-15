@@ -1,15 +1,24 @@
 import 'package:flutter/material.dart';
 
-class Scren_Inicial extends StatefulWidget {
-  const Scren_Inicial({super.key});
+class ScrenInicial extends StatefulWidget {
+  const ScrenInicial({super.key});
 
   @override
-  State<Scren_Inicial> createState() => _Scren_InicialState();
+  State<ScrenInicial> createState() => _ScrenInicialState();
 }
 
-class _Scren_InicialState extends State<Scren_Inicial> {
+class _ScrenInicialState extends State<ScrenInicial> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: ListView(
+        children: [
+          SizedBox(
+            width: 200,
+            height: 200,
+          )
+        ],
+      ),
+    );
   }
 }
